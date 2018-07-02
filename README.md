@@ -102,6 +102,8 @@ Again, the Escalert API key is inherited from the imported template, but you can
 
 ![16](doc/16.png)
 
+When you're finished, don't forget to deploy your changes by going to the "Activity Log" of Icinga Director and selecting "deploy pending changes".
+
 ## See also
 
 https://escalert.io/en/frontend/support/docs/icinga2/
