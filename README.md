@@ -1,12 +1,35 @@
 # icinga2-escalert
 
-The icinga2 docker image from Jordan extended by escalert.io
+The icinga2 docker image from Jordan Jethwa extended by escalert.io
 
 ## Usage
 
 Escalert.io is an incident management system.
 
 This Docker image integrates Escalert.io notifications into the icinga2 Docker image by Jordan Jethwa (https://github.com/jjethwa/icinga2).
+
+## How to get
+
+To get the image, you can either download the Dockerfile from the repository and issue
+
+```
+git clone https://github.com/jondos/icinga2-escalert
+docker build icinga2-escalert
+```
+
+Or pull the image from Docker Hub:
+
+```
+docker pull jondos/icinga2-escalert
+```
+
+You can also directly run the image:
+
+```
+docker run jondos/icinga2-escalert
+```
+
+For more options on running the Icinga2 image, please refer to [the official Icinga2 docker image](https://hub.docker.com/r/jordan/icinga2/)
 
 ## Setup in Icinga2 Director
 
